@@ -14,10 +14,9 @@
 ## 프론트엔드 설정
 
 1. Node.js 16 이상과 npm을 설치합니다.
-2. `frontend` 디렉터리에서 의존성을 설치하고 개발 서버를 실행합니다.
+2. 프론트엔드 의존성을 설치하고 개발 서버를 실행합니다. 루트에서 다음 명령을 실행하면 자동으로 `frontend` 폴더를 사용합니다.
    ```bash
-   cd frontend
-   npm install
+   npm install --prefix frontend
    npm run serve
    ```
 
